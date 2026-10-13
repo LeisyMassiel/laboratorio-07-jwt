@@ -8,7 +8,10 @@ import userRoutes from "./app/routes/user.routes.js";
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:8080"
+  origin: [
+    "http://localhost:8080",
+    "https://laboratorio-07-frontend.onrender.com"
+  ]
 };
 
 app.use(cors(corsOptions));
