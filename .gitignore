@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+frontend/node_modules/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Archivos de compilación
+dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del editor
+.vscode/
+.idea/
+.DS_Store
